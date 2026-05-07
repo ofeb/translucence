@@ -1,7 +1,7 @@
 :root {
   /* APP ELEMENTS */
-  --app-bg: url(https://i.ibb.co/5h7854Wy/bgmVeyt.jpg);
-  --app-blur: 1px;
+  --app-bg: url(https://i.ibb.co/sv6wXsMB/1280px-HD-transparent-picture-png-utm-source-commons-wikimedia.png);
+  --app-blur: 6px;
   --app-margin: 24px;
   --app-radius: 10px;
   --main-rgb: 0,0,0;
@@ -79,7 +79,7 @@
   --chat-search-pill-size: 22px;
   /* POPOUT SETTINGS */
   --popout-color: hsl(0,0%,0%,0.55);
-  --popout-blur: 1px;
+  --popout-blur: 8px;
   --popout-header-opacity: 0.3;
   --popout-header-shadow: 0px 3px 9px 0px hsl(0,0%,0%,0.25);
   --popout-radius: var(--app-radius);
@@ -3477,8 +3477,8 @@ body,
 
 .backdrop__78332 {
   background-color: rgba(0, 0, 0, 0.3) !important;
-  backdrop-filter: blur(calc(var(--popout-blur))) !important;
-  opacity: 70 !important;
+  backdrop-filter: blur(calc(var(--popout-blur) * 1.4)) !important;
+  opacity: 1 !important;
 }
 
 /* MODALS -> V2 MODALS */
