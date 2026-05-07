@@ -1,7 +1,7 @@
 :root {
   /* APP ELEMENTS */
   --app-bg: url(https://i.ibb.co/5h7854Wy/bgmVeyt.jpg);
-  --app-blur: 2px;
+  --app-blur: 1px;
   --app-margin: 24px;
   --app-radius: 10px;
   --main-rgb: 0,0,0;
@@ -79,7 +79,7 @@
   --chat-search-pill-size: 22px;
   /* POPOUT SETTINGS */
   --popout-color: hsl(0,0%,0%,0.55);
-  --popout-blur: 2px;
+  --popout-blur: 1px;
   --popout-header-opacity: 0.3;
   --popout-header-shadow: 0px 3px 9px 0px hsl(0,0%,0%,0.25);
   --popout-radius: var(--app-radius);
