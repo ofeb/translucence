@@ -79,7 +79,7 @@
   --chat-search-pill-size: 22px;
   /* POPOUT SETTINGS */
   --popout-color: hsl(0,0%,0%,0.55);
-  --popout-blur: 8px;
+  --popout-blur: 2px;
   --popout-header-opacity: 0.3;
   --popout-header-shadow: 0px 3px 9px 0px hsl(0,0%,0%,0.25);
   --popout-radius: var(--app-radius);
